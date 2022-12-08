@@ -18,8 +18,9 @@
     /* Stay at the bottom */
     bottom: 0;
     /* Black background with opacity */
-    background: black;
+    background-color: rgba(0, 0, 0, 0.9);
     /* Add a pointer on hover */
+    cursor: pointer;
     /* Use a grid for easy centering */
     display: grid;
     /* Center vertically and horizontally */
@@ -33,12 +34,13 @@
     /* White text color */
     color: white;
     /* Black background color */
-    background-color: black;
+    background: black;
     /* Font family "sans-serif" */
     font-family: sans-serif;
     /* Centered text */
     text-align: center;
     /* Line height ( idem height ) */
+    height: auto;
     /* Display as a block */
     display: block;
     /* Position absolute */
@@ -52,19 +54,25 @@
     /* 2rem height */
     height: 2rem;
     /* White border of 2px */
-    border-style: solid;
-    border: 2rem;
-    border-color: white;
+    border: 2px white solid;
     /* Rounded border */
+    border-radius: 20%;
+    display: grid;
+    align-content: center;
 }
 
 .overlay>figure {
     /* No margin */
+    margin: 0;
     /* 1rem padding */
+    padding: 1rem;
     /* White border of 2px */
+    border: 2px white solid;
 }
 
 .overlay>figure>img {
     /* Max width 100% for responsive image */
+    max-width: 100%;
     /* Height auto for keeping the ratio */
+    height: auto;
 }
